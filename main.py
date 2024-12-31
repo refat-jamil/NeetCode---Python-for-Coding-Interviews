@@ -278,3 +278,30 @@
 # # Set comparehension
 # mySet = {i for i in range(10)}
 # print(mySet)
+
+# # HashMap (aka dict)
+# myMap = {}
+# myMap["Name"] = "Refat" # assining value use key: value pair
+# myMap["Age"] = 23
+
+# myMap["Name"] = "Jamil" # modify value
+
+# print(myMap["Name"]) # priting value calling by key
+
+# print("Name" in myMap)
+# myMap.pop("Name")
+# print("Name" in myMap)
+# print(myMap)
+
+# Looping through map
+myMap = {"Name": "Refat", "Roll":11, "Age":23}
+for i in myMap:
+    print(i, ':', myMap[i])
+
+for v in myMap.values():
+    print(v)
+
+for k in myMap.keys():
+    print(k)
+
+
